@@ -1,0 +1,122 @@
+Neural Network Evaluation Results:
+
+Accuracy: 0.9031
+Precision: 0.8642
+Recall: 0.9541
+F1 Score: 0.9069
+F2 Score: 0.9346
+ROC AUC Score: 0.9744
+
+Confusion Matrix:
+[[ 930,  160],
+ [  49, 1018]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.95      0.85      0.90      1090
+           1       0.86      0.95      0.91      1067
+
+    accuracy                           0.90      2157
+   macro avg       0.91      0.90      0.90      2157
+weighted avg       0.91      0.90      0.90      2157
+
+
+
+Logistic Regression Evaluation Results:
+
+Accuracy: 0.9152
+Precision: 0.9202
+Recall: 0.9072
+F1 Score: 0.9136
+F2 Score: 0.9098
+ROC AUC Score: 0.9724
+
+Confusion Matrix:
+[[1006,   84],
+ [  99,  968]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.92      0.92      1090
+           1       0.92      0.91      0.91      1067
+
+    accuracy                           0.92      2157
+   macro avg       0.92      0.92      0.92      2157
+weighted avg       0.92      0.92      0.92      2157
+
+
+
+Random Forest Evaluation Results:
+
+Accuracy: 0.9833
+Precision: 0.9924
+Recall: 0.9738
+F1 Score: 0.9830
+F2 Score: 0.9774
+ROC AUC Score: 0.9974
+
+Confusion Matrix:
+[[1082,    8],
+ [  28, 1039]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.97      0.99      0.98      1090
+           1       0.99      0.97      0.98      1067
+
+    accuracy                           0.98      2157
+   macro avg       0.98      0.98      0.98      2157
+weighted avg       0.98      0.98      0.98      2157
+
+
+
+SVM Evaluation Results:
+
+Accuracy: 0.9286
+Precision: 0.9319
+Recall: 0.9231
+F1 Score: 0.9275
+F2 Score: 0.9249
+ROC AUC Score: 0.9752
+
+Confusion Matrix:
+[[1018,   72],
+ [  82,  985]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.93      0.93      0.93      1090
+           1       0.93      0.92      0.93      1067
+
+    accuracy                           0.93      2157
+   macro avg       0.93      0.93      0.93      2157
+weighted avg       0.93      0.93      0.93      2157
+
+
+
+Gradient Boosting Evaluation Results:
+
+Accuracy: 0.9879
+Precision: 0.9971
+Recall: 0.9784
+F1 Score: 0.9877
+F2 Score: 0.9821
+ROC AUC Score: 0.9981
+
+Confusion Matrix:
+[[1087,    3],
+ [  23, 1044]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99      1090
+           1       1.00      0.98      0.99      1067
+
+    accuracy                           0.99      2157
+   macro avg       0.99      0.99      0.99      2157
+weighted avg       0.99      0.99      0.99      2157
